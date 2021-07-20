@@ -2,15 +2,15 @@ package ar.edu.unlam.orfanodario;
 
 public class Poder extends Gema {
 
-	public Poder(String nombre) {
-		super(nombre);
+	public Poder() {
+		super("Poder",3);
 		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public Integer incrementarPoder(Integer poder) {
 		// TODO Auto-generated method stub
-		return null;
+		return poder*super.getMultiplicador();
 	}
 
 }

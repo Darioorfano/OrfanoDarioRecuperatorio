@@ -1,32 +1,15 @@
 package ar.edu.unlam.orfanodario;
 
-public class Villano {
+public class Villano extends Personaje {
+
+	public Villano(String nombre, Integer nivelDePoder) {
+		super(nombre, nivelDePoder);
+		// TODO Auto-generated constructor stub
+	}
 	
-	private String nombre;
-	private Integer nivelDePoder;
 
-	public Villano(String nombre, Integer nivelDePoder){
-		
-		this.nombre=nombre;
-		this.nivelDePoder=nivelDePoder;
-		
-	}
 
-	public String getNombre() {
-		return nombre;
-	}
-
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
-
-	public Integer getNivelDePoder() {
-		return nivelDePoder;
-	}
-
-	public void setNivelDePoder(Integer nivelDePoder) {
-		this.nivelDePoder = nivelDePoder;
-	}
+	
 	
 	
 }

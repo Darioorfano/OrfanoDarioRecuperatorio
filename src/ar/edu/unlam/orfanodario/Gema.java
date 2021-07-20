@@ -2,11 +2,11 @@ package ar.edu.unlam.orfanodario;
 
 public abstract class Gema implements Hechizable {
 private String nombre;
+private Integer multiplicador;
 
-
-
-public Gema(String nombre){
+public Gema(String nombre,Integer multiplicador){
 	this.nombre=nombre;
+	this.multiplicador=multiplicador;
 }
 
 public String getNombre() {
@@ -20,4 +20,11 @@ public void setNombre(String nombre) {
 public abstract Integer incrementarPoder(Integer poder);
 
 
+public Integer getMultiplicador() {
+	return multiplicador;
+}
+
+public void setMultiplicador(Integer multiplicador) {
+	this.multiplicador = multiplicador;
+}
 }
