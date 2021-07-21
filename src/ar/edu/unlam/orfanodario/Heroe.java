@@ -7,6 +7,7 @@ public class Heroe extends Personaje {
 		// TODO Auto-generated constructor stub
 	}
 
+	
 
 
 

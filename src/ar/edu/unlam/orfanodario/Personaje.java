@@ -13,8 +13,8 @@ public Personaje(String nombre,Integer nivelDePoder){
 	
 	
 
-public void utilizarGema(Gema alma) {
-		
+public void utilizarGema(Gema gema) {
+	this.nivelDePoder = gema.incrementarPoder(this.nivelDePoder);
 }
 
 
@@ -68,6 +68,9 @@ public Integer getNivelDePoder() {
 public void setNivelDePoder(Integer nivelDePoder) {
 	this.nivelDePoder = nivelDePoder;
 }
+
+
+
 
 
 
