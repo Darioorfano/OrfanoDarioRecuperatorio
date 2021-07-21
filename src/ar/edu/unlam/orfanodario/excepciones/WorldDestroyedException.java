@@ -1,4 +1,4 @@
-package ar.edu.unlam.orfanodario;
+package ar.edu.unlam.orfanodario.excepciones;
 
 public class WorldDestroyedException extends Exception {
 
