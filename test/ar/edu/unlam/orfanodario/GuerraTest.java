@@ -85,6 +85,9 @@ public class GuerraTest {
 		Personaje redSkull=new Villano("RedSkull",1020);
 		Guerra guerra=new Guerra();
 		
+		
+		guerra.crearBatalla(thor, loki);
+		guerra.crearBatalla(hulk,hela);
 		TreeSet<Heroe>listaDeHeroesOrdenadaPorNombreDeManeraAscendente=new TreeSet<>();
 		
 
